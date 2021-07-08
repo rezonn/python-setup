@@ -9,6 +9,7 @@
 ```
 replace to
 ```
+.
 .\Lib\site-packages\
 import site
 ```
