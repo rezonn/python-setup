@@ -1,4 +1,4 @@
-# Python 3 portable for Windows 10
+# Python 3.8-3.9 portable for Windows 10
 - Download [Python Windows embeddable package](https://www.python.org/downloads/windows/)
 - Unpack it to D:/python
 - Modify D:/python/python*.pth. Find line
