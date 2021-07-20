@@ -1,4 +1,4 @@
-# Python 3.7-3.9 portable for Windows 10
+# Python 3.7.9 portable for Windows 10
 - Turn on [long paths](https://windowsnotes.ru/windows-10/dlinnye-puti-v-windows-10/)
 - Download [Python Windows embeddable package](https://www.python.org/downloads/windows/)
 - Unpack it to D:/python
@@ -26,6 +26,8 @@ Example
 d:
 chdir "D:\Python\Scripts"
 pip.exe install gym
+pip install tensorflow
+
 pause
 ```
 ## Python ..
