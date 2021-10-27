@@ -1,4 +1,4 @@
-# Python 3.7.9 portable for Windows 10
+# Python 3.7.9 & TensorFlow portable for Windows 10
 - [Enale long paths](enable_long_path.reg) , restart
 - Download [Python 3.7.9 Windows embeddable](https://www.python.org/downloads/windows/) .
 Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7.9/python-3.7.9-embed-amd64.zip)
