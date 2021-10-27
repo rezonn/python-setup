@@ -1,5 +1,5 @@
 # Python 3.7.9 portable for Windows 10
-- Turn on [long paths](https://windowsnotes.ru/windows-10/dlinnye-puti-v-windows-10/)
+- Turn on [long paths](enable_long_path.reg)
 - Download [Python Windows embeddable package](https://www.python.org/downloads/windows/)
 - Unpack it to D:/python
 - Modify D:/python/python*.pth. Find line
