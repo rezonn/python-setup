@@ -1,6 +1,7 @@
 # Python 3.7.9 portable for Windows 10
 - [Enale long paths](enable_long_path.reg) , restart
-- Download [Python Windows embeddable package](https://www.python.org/downloads/windows/)
+- Download [Python 3.7.9 Windows embeddable](https://www.python.org/downloads/windows/)
+direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7.9/python-3.7.9-embed-amd64.zip)
 - Unpack it to D:/python
 - Modify D:/python/python*.pth. Find line
 ```
