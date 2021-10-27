@@ -2,8 +2,8 @@
 - [Enale long paths](enable_long_path.reg) , restart
 - Download [Python 3.7.9 Windows embeddable](https://www.python.org/downloads/windows/) .
 Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7.9/python-3.7.9-embed-amd64.zip)
-- Unpack it to D:/python
-- Modify D:/python/python*.pth. Find line
+- Unzip
+- Modify python/python*.pth. Find line
 ```
 .
 # Uncomment to run site.main() automatically
