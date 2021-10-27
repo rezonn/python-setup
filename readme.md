@@ -15,8 +15,6 @@ replace to
 .\Lib\site-packages\
 import site
 ```
-
-
 - Save [get-pip.py](get-pip.py) to Python folder
 - Drag get-pip.py to python.exe
 
