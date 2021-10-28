@@ -17,8 +17,6 @@ import site
 ```
 - Save [get-pip.py](get-pip.py) to Python folder
 - Drag get-pip.py to python.exe
-
-## Pip install tensorflow
 # Visual Studio
 - Download and install [Visual Studio Redistributable 2015, 2017, 2019, and 2022](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads)
 # termcolor
