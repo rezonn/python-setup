@@ -9,6 +9,11 @@ Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7
 - Download [termcolor-1.1.0.tar.gz](https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz). Find file termcolor.py
 - Copy the termcolor.py -> \Lib\site-packages\
 - Add Python folder to system path
+# system path
+```
+rundll32 sysdm.cpl,EditEnvironmentVariables
+```
+- System variables -> Path -> Edit -> New -> type Python folder
 # tensorflow
 ```
 pip install tensorflow==2.5.0
