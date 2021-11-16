@@ -5,9 +5,7 @@ Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7
 - Unzip to Python folder
 - Save [get-pip.py](get-pip.py) and [python39._pth](python39._pth) to Python folder
 - Drag get-pip.py to python.exe
-# Visual Studio
 - Download and install [Visual Studio Redistributable 2015, 2017, 2019, and 2022](https://docs.microsoft.com/ru-RU/cpp/windows/latest-supported-vc-redist?view=msvc-160#visual-studio-2015-2017-2019-and-2022)
-# termcolor
 - Download [termcolor-1.1.0.tar.gz](https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz)
 - Untar and unzip the package
 - Copy the termcolor.py -> \Lib\site-packages\
