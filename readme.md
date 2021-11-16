@@ -14,6 +14,7 @@ Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7
 rundll32 sysdm.cpl,EditEnvironmentVariables
 ```
 - System variables -> Path -> Edit -> New -> type Python folder
+- New -> type Python\Scripts folder
 # tensorflow
 ```
 pip install tensorflow==2.5.0
