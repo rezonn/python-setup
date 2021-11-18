@@ -12,6 +12,7 @@ Direct link [python-3.7.9-embed-amd64.zip](https://www.python.org/ftp/python/3.7
 - Copy the termcolor.py -> \Python\Lib\site-packages\
 - Add \Python folder to system path
 # system path
+as admin
 ```
 rundll32 sysdm.cpl,EditEnvironmentVariables
 ```
