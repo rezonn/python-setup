@@ -1,0 +1,5 @@
+{
+  "cmd": ["/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python", "$file"],
+  "selector": "source.py",
+  "working_dir": "${project_path:${folder}}",
+}
