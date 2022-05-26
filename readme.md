@@ -22,3 +22,21 @@ rundll32 sysdm.cpl,EditEnvironmentVariables
 ```
 pip install tensorflow==2.5.0
 ```
+# remote build python from macos/linux to windows
+- Win -> Settings -> Apps -> Optional features -> Add feature -> OpenSSH Server, install
+- Press Windows + R, type services.msc
+- OpenSSH Server -> Properties -> Startup type: automatic, click Start
+- macos/linux terminal: (2060 - windows user name, 192.168.1.4 - windows ip)
+```
+ssh-keygen
+ssh 2060@192.168.1.4
+```
+- type windows password
+```
+cd .ssh
+scp id_rsa.pub 2060@192.168.1.4:%programdata%/ssh
+cd %programdata%/ssh
+type id_rsa.pub >> administrators_authorized_keys
+icacls administrators_authorized_keys /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
+```
+(note "Administrators" depend from localiation)
