@@ -40,3 +40,6 @@ type id_rsa.pub >> administrators_authorized_keys
 icacls administrators_authorized_keys /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ```
 (note "Administrators" depend from localiation)
+```
+cat hello_world.py  | ssh 2060@192.168.1.4 python -
+```
