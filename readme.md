@@ -24,7 +24,7 @@ pip install tensorflow==2.5.0
 ```
 # remote build python from macos/linux to windows
 - Win -> Settings -> Apps -> Optional features -> Add feature -> OpenSSH Server, install
-- Press Windows + R, type services.msc
+- Press ⊞+R, type services.msc
 - OpenSSH Server -> Properties -> Startup type: automatic, click Start
 - macos/linux terminal: (2060 - windows user name, 192.168.1.4 - windows ip)
 ```
