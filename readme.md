@@ -22,6 +22,7 @@ rundll32 sysdm.cpl,EditEnvironmentVariables
 ```
 pip install tensorflow==2.5.0
 ```
+- Save [cudnn64_8.dll](https://www.dll-files.com/cudnn64_8.dll.html) to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin
 # remote build python from macos/linux to windows
 - Win -> Settings -> Apps -> Optional features -> Add feature -> OpenSSH Server, install
 - Press ⊞+R, type services.msc
