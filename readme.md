@@ -44,3 +44,7 @@ icacls administrators_authorized_keys /inheritance:r /grant "Administrators:F" /
 ```
 cat hello_world.py  | ssh 2060@192.168.1.4 python -
 ```
+only one python must be
+```
+where python
+```
